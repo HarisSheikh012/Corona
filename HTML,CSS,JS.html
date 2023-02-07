@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTMl CSS JS</title>
+        <!--externel method-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Haris">
+        <meta name="description" content="HTML provides the basic structure of sites,CSS is used to control presentation, formatting, and layout.
+        JavaScript is used to control the behavior of different elements.">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            /*internel method*/
+           *{box-sizing: border-box;
+            padding: 0%;
+            margin: 0%;}
+           table{
+           width:100%;
+           text-align: center;
+           font-size: large;
+           }
+           th,td{
+           color: black;
+           text-align: center;
+           font-size: large;
+           font-family: inherit;
+        }
+           tr:nth-child(even){background-color:cadetblue}
+           tr:nth-child(odd){background-color:slategray }
+           .city{background-color:darkslategray;
+           color: black;
+           font-size: larger;
+           font-family: inherit;
+           padding: 10px;
+           margin: 10px;}
+           header{    
+           background-color:slategray;
+           color: black;
+           font-family: inherit;
+           text-align: center;
+           padding: 3%;
+           margin: 0%;
+           
+        }
+           nav{
+           font-family: inherit;
+        }
+        nav ul{
+        list-style-type: none;
+        text-align: center;
+        background-color:darkseagreen;
+        }
+        aside{
+        background-color:rgb(39, 105, 94);
+        color:#110e11;
+        font-family: inherit;
+        font-size: 40px;
+        height:300px ;
+        padding: 0%;
+        margin: 0%;
+        }
+        article{
+        background-color: rgb(52, 66, 66);
+        color:black;
+        font-family: inherit;
+        width:450px;
+        height:300px;
+        float: left;
+        }
+        footer{
+        background-color:darkolivegreen;
+        color: black;
+        text-align: center;
+        padding: 3%;
+        }
+        h1{
+        font-size: 27px;
+        text-align: center;
+        padding: 1%;
+        }
+        a{
+        color:brown;
+        font-size: larger;
+        margin: 4.5%;
+        text-align: center;
+        }
+        a:hover{
+            color:seagreen;
+        }
+        a:active{
+            color: black;
+        }
+        .note{background-color:slategrey;
+        color: black;
+        font-size: 15px;
+        font-family:cursive;
+        padding:2px;
+        margin:2px;
+        }
+        ul{
+            font-size: larger;
+        }
+        button{
+            background-color:grey;
+            color: black;
+            text-align: center;
+            margin-left: 47%;
+            font-size:16px;
+        }
+        p{
+            padding: 1%;
+        }
+        form{
+            padding: 1%;
+            margin-top:  1%;
+            text-align: center;
+        }
+        video{
+            width: 700px;
+        }
+        audio{
+            margin-top: 2%;
+        }
+        h2{
+            font-family:var();
+            color: sienna;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>EFFECTS OF COVID-19</h1>
+        <!--inline method-->
+        <p style="font-size: 22px;"><b>DESCRIPTION :</b></p>
+        <p style="padding:1%">Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention.It is normal for viruses to change and evolve as they spread between people over time. When these changes become significantly different from the original virus, they are known as “variants.” To identify variants, scientists map the genetic material of viruses (known as sequencing) and then look for differences between them to see if they have changed. Since the SARS-CoV-2 virus, the virus that causes COVID-19, has been spreading globally, variants have emerged and been identified in many countries around the world.</p>
+        <img src="corona.jpg" width="700px" height="350px" style="float: right">
+        <h1>SYMPTOMS OF COVID-19</h1>
+        <p style="font-size:19px">Fever or chills.<br>
+            Cough.<br>
+            Shortness of breath or difficulty breathing.<br>
+            Tiredness.<br>
+            Muscle or body aches.<br>
+            Headaches.<br>
+            New loss of taste or smell.<br>
+            Sore throat. 
+        </p> 
+        <h1 style="font-size: 20px;">ADVICE FROM 'WHO'</h1> 
+        <h3 style="text-align:center"><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" target="_blank">WORLD HEALTH ORGANIZATION</a></h3><br>
+        <h1 style="padding:2%">WORLD-Wide Covid-19 Dashboard</h1>
+        <table>
+            <tr>
+                <th>Country</th>
+                <th>Last</th>
+                <th>Previous</th>
+                <th>Reference</th>
+                <th>Unit</th>
+            </tr>
+            <tr>
+                <td>World</td>
+                <td>437333859</td>
+                <td>435789213</td>
+                <td>Mar/22</td>
+                <td>Persons</td>
+            </tr>
+            <tr>
+                <td>United States</td>
+                <td>435635524</td>
+                <td>56362636</td>
+                <td>Mar/22</td>
+                <td>Persons</td>
+            </tr>
+            <tr>
+                <td>Russia</td>
+                <td>34734572</td>
+                <td>960788576</td>
+                <td>Mar/21</td>
+                <td>Persons</td>
+            </tr>
+            <tr>
+                <td>America</td>
+                <td>885766486</td>
+                <td>969585746</td>
+                <td>Mar/20</td>
+                <td>Persons</td>
+            </tr>
+            <tr>
+                    <td>Dubai</td>
+                    <td>74856455</td>
+                    <td>9785756</td>
+                    <td>Feb/28</td>
+                    <td>Persons</td>
+            </tr>
+            <tr>
+                    <td>Pakistan</td>
+                    <td>84763536</td>
+                    <td>86764635</td>
+                    <td>Feb/27</td>
+                    <td>Persons</td>
+            </tr>
+                <td>Turkey</td>
+                <td>746363535</td>
+                <td>75746353</td>
+                <td>feb/26</td>
+                <td>Persons</td>
+            </tr>
+        </table>
+    <h1>Violence Against Panademic</h1>
+    <p style="font-size:larger"><u>Grassroots and women’s organizations</u> and communities have played a critical role in preventing and responding to previous crises and need to be supported strongly in their current frontline role including with <b>funding</b> that remains in the longer-term.<em> Helplines, psychosocial </em>support and online counselling should be boosted, using technology-based solutions such as SMS, online tools and networks to expand social support, and to reach women with no access to phones or internet. Police and justice services must mobilize to ensure that incidents of <small> against women</small> and girls are given high priority with no impunity for perpetrators. The <del>private sector</del> also has an important role to play, sharing information, alerting staff to the facts and the dangers of domestic<sup> violence</sup> and <sub>encouraging </sub>positive steps like sharing care responsibilities at home. COVID-19 is already testing us in ways most of us have never previously experienced, providing emotional and economic shocks that we are struggling to rise above. The violence that is emerging now as a dark feature of this pandemic is a mirror and a challenge to our values, our resilience and shared humanity. We must not only survive the coronavirus, but emerge renewed, with women as a powerful force at the centre of recovery.</i></p><br>
+    <h2 style="text-align:center"><abbr title="WORLD HEALTH ORGANIZATION">WHO</abbr></h2><br>
+    <blockquote cite="https://www.unwomen.org/en/news/stories/2020/4/statement-ed-phumzile-violence-against-women-during-pandemic?gclid=Cj0KCQiA64GRBhCZARIsAHOLriINFwR1PKoxZivzESbXuvZ8wHxUyVx5QOxjVMR3418A1oeUJpX1qYAaAneLEALw_wcB" style="padding-bottom:1%"><i>With 90 countries in lockdown, four billion people are now sheltering at home from the global contagion of COVID-19. It’s a protective measure, but it brings another deadly danger. </blockquote>
+    <img src="virus.webp" width="600px" height="300px">
+    <img src="coronavirus2.webp" width="600px" height="300px" style="float:right"><br>
+    <h1 style="font-size: larger;">COVID-19 Overview and Infection Prevention and Control Priorities in non-U.S. Healthcare Settings</h1>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+        <a href="#">Guidance</a>
+        <a href="#">Reviews</a><br>
+    <div style="padding:1%"><p style="text-align: center;">HELLO WORLD</p></div>
+    <h1 id="1">Covid-19</h1>
+    <div class="city">
+        <h2>USA</h2>
+        <p>7171,critical-serious</p>
+    </div>
+    <div class="city">
+        <h2>South America</h2>
+        <p>13243,critical-serious</p>
+    </div>
+    <p>Through the Sustainable Development Goals, we aim to bring peace and prosperity to all. Support our important work in more than 170 countries and territories. Make a Difference Today.<span class="note">Services:</span> Resilience, Governance, Gender Equality, Crisis Prevention, Environment.</p>
+    <h1>Top high Rated Affected Counties</h1><br>
+    <ul style="padding: 2%;">
+        <li>USA</li>
+        <li>INDIA</li>
+        <li>BRAZIL</li>
+        <li>FRANCE</li>
+        <li>UK</li> 
+        <li>RUSSIA</li> 
+        <li>GERMANY</li> 
+        <li>TURKEY</li> 
+    </ul><br>
+    <button onclick="hisfunction()">Today Date</button>
+    <h1 id="demo" style="font-size: 20px;"></h1> 
+    <script>
+        function hisfunction(){
+            document.getElementById("demo").innerHTML=Date()
+        }
+    </script><br>
+    <p style="text-align: center;">Vaccinations and Health Advisory</p>
+    <header>
+        <h2>COVID-19 PANADEMIC</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">BioNTech, Pfizer vaccine</a></li>
+                <li><a href="#">CanSino vaccine</a></li>
+                <li><a href="#">Moderna vaccine</a></li>
+                <li><a href="#">Oxford, AstraZeneca vaccine</a></li>
+                <li><a href="#">CoronaVac vaccine</a></li>
+                <li><a href="#">Sinopharm BBIBP vaccine</a></li>
+                <li><a href="#">Sputnik V vaccine</a></li>
+            </ul>
+        </nav>
+        <article>
+           <h1 style="font-size:33px;">Covid Update</h1>
+           <p style="font-size: 50px;">Reported Cases and Deaths by Country or Territory in the whole world</p>
+        </article>
+        <aside>
+            Afghanistan: Ministry of Public Health Afghanistan
+            Albania: National Agency for Information Society
+            Andorra: Official Govern d'Andorra Coronavirus website
+            Angola: Angola Press Agency
+            Anguilla: Official COVID-19 Government website  
+        </aside>
+    </section>
+    <footer>
+        <h1>Scholarly articles for Health effects of COVID-19</h1>
+    </footer>
+    <h1><a href="#1">Jump to Covid-19</a></h1>
+   <p style="text-align:center"><cite style="font-size:24px">Radio Button Form</cite></p>
+   <p  style="font-size:22px">Select Your Country</p>
+   <form>
+    <input type="radio" name="fav_country">
+    <label for="country">America</label><br>
+    <input type="radio" name="fav_country">
+    <label for="country">China</label><br>
+    <input type="radio" name="fav_country">
+    <label for="country">UK</label><br>
+    <input type="radio" name="fav_country">
+    <label for="country">Germany</label><br>
+    <input type="radio" name="fav_country">
+    <label for="country">Russia</label><br>
+    <input type="radio" name="fav_country">
+    <label for="country">Pakistan</label><br>
+    <input type="radio" name="fav_country">
+    <label for="country">brazil</label><br>
+    <input type="radio" name="fav_country">
+    <label for="country">Turkey</label><br>
+    </form>
+    <p style="text-align:center"><cite style="font-size:24px">Checkbox Button Form</cite></p>
+    <p  style="font-size:22px">Select Your Vaccine-Dose</p>
+    <form action="/action_paage.php" target="_blank">
+    <input type="checkbox">
+    <label for="AstraZeneca">AstraZeneca</label><br>
+    <input type="checkbox">
+    <label for="BioNTech">BioNTech</label><br>
+    <input type="checkbox">
+    <label for="Johnson">Johnson</label><br>
+    <input type="checkbox">
+    <label for="Moderna">Moderna</label><br>
+    <input type="checkbox">
+    <label for="">Pfizer</label><br>
+    <input type="checkbox">
+    <label for="">Sinopharm</label><br>
+    <input type="checkbox">
+    <label for="Sinovac_Biotech">Sinovac Biotech</label><br>
+    <input type="checkbox">
+    <label for="Novartis">Novartis</label><br>
+    <input type="checkbox">
+    <label for="GlaxoSmithKline">GlaxoSmithKline</label><br>
+    <input type="checkbox">
+    <label for="Intercell">Intercell</label><br>
+    <input type="checkbox">
+    <label for="Eli_Lilly">Eli Lilly</label><br>
+    <input type="checkbox">
+    <label for="BioMérieux">BioMérieux</label><br>
+    <input type="submit" value="submit" style="margin: 1%;">
+    </form>
+    <!--inline method-->
+    <p style="text-align: center;">Comment</p>
+    <!---->
+    <!--
+    <p style="text-align: center;"> Not watchable, only see programmer</p>
+    -->
+    <address style="text-align: center;">
+        Written By  <cite>Haris</cite><br>
+    </address>
+    <h4>Covid-19</h4>
+    <h4><a href="https://www.nytimes.com/2022/03/14/us/politics/coronavirus-vaccine-children-moderna-pfizer.html" target="_blank">Coronavirus Vaccine </a></h4><br>
+    <aside style="font-size: 40px">
+        <h3 style="text-align: center;"> HOW IT SPREADS :</h3>
+             <p style="text-align: center;"> The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols.</p>
+     </aside>
+     <iframe src="https://www.worldometers.info/coronavirus/" width="1258px" height="600px"></iframe> <br>
+     <p style="font-size: large;" >
+       <b> Symptoms show up in people within two to 14 days of exposure to the virus. 
+        A person infected with the coronavirus is contagious to others for up to two days before symptoms appear,
+        and they remain contagious to others for 10 to 20 days, 
+        depending upon their immune system and the severity of their illness. </b>
+     </p>
+     <button type="button" onclick="thefunction()">Click</button>
+     <h1 id="id" style="text-align: center;"></h1>
+     <script>
+         function thefunction()
+         {
+             document.getElementById("id").innerHTML="Covid-19";
+         }
+     </script>
+    <button type="menu" onclick="myfunction()">Country</button>
+    <h1 id="ddd" style="text-align: center;"></h1>
+    <script>
+        function myfunction()
+        {
+            document.getElementById("ddd").innerHTML="Pakistan";
+        }
+    </script>
+    <h1> &#128525; pakistan &#128151; </h1>
+    <form target="_blank" method="get">
+        <fieldset>
+            <legend>About Yours</legend>
+        <label for="fname">First name:</label>
+        <input type="text" style="margin:1%" required>
+        <label for="lname">Last name:</label>
+        <input type="text" style="margin: 1.2%;" required>
+        <label for="gender">Gender :</label>
+        <input type="radio" required>
+        <label for="m">Male</label>
+        <input type="radio" required>
+        <label for="fm">Female</label>
+        <label for="country" style="margin-left: 2%;"> Your Country :</label>
+        <select required multiple size="2">
+           <option value="pak">Pakistan</option>
+           <option value="tur">Turkey</option>
+           <option value="uk">Uk</option>
+           <option value="eng">England</option>
+           <option value="aus">Australia</option>
+        </select><br>
+        <label for="fname">Address:</label>
+        <input type="text" style="margin: 1%;" required>
+        <label for="numbers">Contact No:</label>
+        <input type="text" style="margin: 1%;" placeholder="0300-000-0000" maxlength="11" required>
+        <label for="fname">Email :</label>
+        <input type="email" placeholder="@gmail.com" autocomplete="off" required>
+        <label for="fname" style="margin-left: 1%;">Date & Time :</label>
+        <input type="date" style="margin: 1%;" required><br>
+        <label for="vaccinr">Select Vaccine :</label>
+        <input list="Vaccine">
+        <datalist id="Vaccine" style="margin: 1%;">
+            <option value="AstraZeneca">
+            <option value="BioNTech"> 
+            <option value="Johnson">  
+            <option value="Moderna">  
+            <option value="Pfizer"> 
+            <option value="Sinopharm">
+            <option value=" Sinovac Biotech">
+            <option value="Novartis">
+            <option value="GlaxoSmithKline">  
+            <option value="Intercell">    
+            <option value="Eli Lilly">   
+            <option value="BioMérieux">   
+        </datalist><br>
+        <input type="submit" value="submit" style="margin: 1%;"><br>
+        </fieldset>
+      </form>
+      <h1 style="margin-bottom: 3%;">COVID-19 affects different people in different ways</h1>
+      <video autoplay controls muted style="float: right;">
+        <source src="covid.mp4" type="video/mp4">
+      </video>
+      <p style="font-size: 25px;">
+        The virus can spread from an infected person’s
+        mouth or nose in small liquid particles when they cough,
+        sneeze, speak, sing or breathe. These particles range from
+        larger respiratory droplets to smaller aerosols.
+        You can be infected by breathing in the virus if you
+        are near someone who has COVID-19, or by touching a 
+        contaminated surface and then your eyes, nose or mouth.
+        The virus spreads more easily indoors and in crowded settings.
+      </p>
+      <a href="https://www.youtube.com/watch?v=PSnSo9kYlH4">SARS-CoV-2 virus transmission leading to COVID-19</a><br>
+      <audio width="400px" height="600px" controls style="margin-left: 8%;">
+        <source src="Skylar Grey - Love The Way You Lie.mp3" type="audio/mp3">
+      </audio><br>
+      <br>
+      <br>
+      <h2 style="margin-bottom: 3%;">To make sure that COVID-19 vaccines are safe, CDC expanded and strengthened the country’s ability to monitor vaccine safety. CDC created new ways to gather more information about the safety of COVID-19 vaccines. These web-based platforms give CDC scientists information about the safety of COVID-19 vaccines in real time.</h2>
+      <iframe src="https://www.youtube.com/embed/RZRQdiEzvjg" width="1260" height="500" style="float: right;"></iframe>
+      <a href="b1" style="font-size:19px">Contact Info</a>
+      <a href="b2" style="font-size:19px">CDC INFORMATION</a>
+      <a href="b3" style="font-size:19px">Email CDC-INFO</a>
+      <a href="b4" style="font-size:19px">About CDC</a>
+      <a href="b5" style="font-size:19px">Policies</a>
+      <a href="b6" style="font-size:19px">File Viewers & Players</a>
+      <a href="b7" style="font-size:19px">Privacy</a>
+      <a href="b8" style="font-size:19px">FOIA</a>
+      <a href="b9" style="font-size:19px">OIG</a>
+      <a href="b10" style="font-size:19px">No Fear Act</a>
+      <a href="b11" style="font-size:19px">Funding</a>
+    </ul>
+    <h1>
+        <address>
+            <h4>Made By</h4>
+        <cite>Haris</cite>
+        </address>
+    </h1>
+ </body>
+</html>
